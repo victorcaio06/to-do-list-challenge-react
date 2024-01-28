@@ -6,7 +6,7 @@
   gap: 0.5rem;  
 }
 
-.inputTask input {
+.inputTask {
   border: 1px solid var(--gray-700);
   border-radius: 8px;
 
@@ -20,50 +20,11 @@
   line-height: 140%;
 }
 
-.inputTask input::placeholder {
+.inputTask::placeholder {
   color: var(--gray-300);
 }
 
-.inputTask input:focus {
+.inputTask:focus {
   border-color: var(--purple-dark);
   outline: transparent;
-}
-
-.inputTask input, .inputTask button {
-  transform: translateY(-50%);
-
-  margin-bottom: 2.3125rem;
-}
-
-.inputTask button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  height: 3.25rem;
-  padding: 1rem;
-
-  background-color: var(--blue-dark);
-  color: var(--gray-100);
-
-  border: 0;
-  border-radius: 8px;
-  gap: 0.5rem;
-  box-shadow: none;
-
-  line-height: 140%;
-  font-weight: bold;
-  font-size: 0.875rem;
-
-  transition: 0.2s;
-
-  cursor: pointer;
-}
-
-.inputTask button:hover {
-  background-color: var(--blue);
-}
-
-.inputTask button svg:hover {
-  transform: scale(1.2);
 }
